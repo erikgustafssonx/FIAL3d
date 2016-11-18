@@ -1,0 +1,25 @@
+Compiling on unix (mac os x included):
+
+Dependencis:
+To compile fial3d on unix you need GNUmake and a C compiler (preferably GCC).
+If you run Linux, you probably already have those tools installed with your linux distribution.
+
+Building instructions:
+First untar the fial3d folder with
+tar xzvf fial3d-?.??     *the "?" is depending on version number*
+Then cd into your newly untared directory and type "make". that will compile a binary file named "fial3d".
+
+
+Compiling on win32:
+
+Dependencis:
+You will need a C compiler for windows, prefarably dev-cpp. 
+most other compilers would also work, but make it harder for you couse then you have to put the .c files together yourself.
+(if you chose dev-cpp its already done for you and saved in the dev-cpp project file called fial3d.dev).
+another big advantage with dev-cpp is that its free and under the GPL (the same licens as for example linux and this game have).
+dev-cpp can be downloaded from www.bloodshed.net/devcpp.html
+
+Building instructions:
+When you have downloaded and installed dev-cpp just click on the fial3d.dev file and it will get opened in dev-cpp by itself. 
+well in dev-cpp, click on the "execute" menu, and on that menu click "compile". 
+this will create a fial3d.exe file in the same directory as the sourcecode. 
